@@ -74,6 +74,27 @@ public class gyakorlo_3 {
 
         System.out.println(Arrays.toString(numbersString));*/
 
+        // Tükörtömb
+
+        /*int[] numbers = {1, 2, 2, 3, 4, 5, 5, 4, 3, 2, 2, 1};
+        int temp = 0, tempIndex = numbers.length - 1;
+        boolean mirrorArray = false;
+
+        if (numbers.length == 1) {
+            System.out.println("Tükörtömb");
+        }
+
+        for (int i = 0; i < numbers.length; i++) {
+            temp = numbers[tempIndex];
+            mirrorArray = numbers[i] == temp? true : false;
+            tempIndex--;
+            if (!mirrorArray) {
+                break;
+            }
+        }
+
+
+        System.out.println("Is it a mirror array: " + mirrorArray);*/
 
     }
 }
