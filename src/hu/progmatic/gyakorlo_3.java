@@ -1,5 +1,7 @@
 package hu.progmatic;
 
+import java.util.Arrays;
+
 public class gyakorlo_3 {
 
     public static void main(String[] args) {
@@ -34,7 +36,7 @@ public class gyakorlo_3 {
             System.out.println("Az eredmény: " + result);
         }*/
 
-        // Minimum keresés
+        // Minimumkeresés
         /*int[] numbers = {-104, -442, -422, -66, -333, -103, -89, -66, -501, -316, -114};
         int minValue = Integer.MAX_VALUE, temp = 0;
 
@@ -46,5 +48,32 @@ public class gyakorlo_3 {
         }
 
         System.out.println(minValue);*/
+
+        // Maximumkeresés
+
+        /*int[] numbers = {-104, -442, -422, -66, -333, -103, -89, -66, -501, -316, -114};
+        int maxValue = Integer.MIN_VALUE, temp = 0;
+
+        for (int i = 0; i < numbers.length; i++) {
+            temp = numbers[i];
+            if (temp > maxValue) {
+                maxValue = temp;
+            }
+        }
+
+        System.out.println(maxValue);*/
+
+        //Konvertálás
+
+        /*int[] numbers = {-2, 1, -6, 10};
+        String[] numbersString = new String[numbers.length];
+
+        for (int i = 0; i < numbers.length; i++) {
+            numbersString[i] = String.valueOf(numbers[i]);
+        }
+
+        System.out.println(Arrays.toString(numbersString));*/
+
+
     }
 }
